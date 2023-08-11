@@ -147,3 +147,44 @@ h1 {
     padding-bottom: 15px;
     width: 250px;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 40px;
+
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.formName {
+    font-size: 30px;
+    font-family: 'Gill Sans', sans-serif;
+    color: #e23448;
+}
+
+#submit {
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+}
+
+#submittedHead {
+    margin-top: 170px;
+}
