@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+nav {
+    display: flex;
+    background-color: #e23448;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    justify-content: space-between;
+    font-family:'Gill Sans', sans-serif;
+}
+
+.navLinks {
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#navName {
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+#summary {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+#summTitle {
+    font-size: 30px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+#summBody {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#me {
+    text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#linkedIn {
+    width: 60px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin-top: 100px;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.paragraph {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#header1 {
+    border-top: 4px black solid;
+}
+
+.paraHeader {
+    font-size: 25px;
+    color: #e23448;
+    font-family: 'Gill Sans', sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.paraBody {
+    font-size: 16px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border-bottom: 4px black solid;
+}
+
+.project {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.projectHead {
+    font-size: 25px;
+    color: #e23448;
+    font-family: 'Gill Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.projectBody {
+    font-size: 16px;
+    padding-bottom: 15px;
+    display: flex;
+    border-bottom: 4px black solid;
+}
+
+.projectImg {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+}
